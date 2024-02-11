@@ -1,0 +1,75 @@
+
+body {
+      background-image: url( https://w7.pngwing.com/pngs/27/231/png-transparent-island-animation-cartoon-sea-beach-computer-wallpaper-summer.png  );
+      background-size: 100% ;
+      background-repeat: no-repeat; 
+     }
+
+.bg-box {display: flex;}
+
+.plane-image {
+              width: 200px;
+              animation-name:plane-anime;
+              animation-iteration-count: infinite;
+              animation-direction: normal; 
+              animation-duration: 15s;
+              animation-delay: 1s;
+            }
+
+.div-plane { 
+              width: 200px;
+              height: 250px;
+
+            }
+            
+.ship-image {
+            width: 250px;
+            margin-top: 400px;
+            margin-left: 700px;
+            animation-name:ship-anime;
+            animation-iteration-count: infinite;
+            animation-direction: normal; 
+            animation-duration: 15s;
+            animation-delay: 0s;}
+        
+.div-ship { 
+            width: 200px;
+            height: 250px;
+             }
+
+.sun-image {
+            width: 250px;
+            margin-top: 50px;
+            margin-left: 670px;
+            animation-name:sun-anime;
+            animation-iteration-count: infinite;
+            animation-direction: normal; 
+            animation-duration: 15s;
+            animation-delay: 0s;}
+         
+
+.sun-div  { 
+          width: 200px;
+          height: 200px;  
+          }
+
+.ariel-div { 
+           width: 200px;
+           height: 200px;  
+           } 
+
+
+@keyframes plane-anime { 
+                         from { transform:translatey(100px)}
+                         to {transform:translateX(200px)}
+                         to { transform:translateX(1000px)}
+                      
+                         }
+@keyframes ship-anime {  
+                       from {transform: translatex(-0px);}
+                       to {transform:translatex(-700px)}
+                    }
+                        
+@keyframes  sun-anime  { from {transform: rotate(360deg);}}
+
+
